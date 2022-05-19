@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+	padding: 1px;
+	margin: 1px;
+}  
+
+#logo {
+	margin:50px auto;
+	position:relative;
+	width:147px;
+} 
+
+.banner {
+	text-align: center;
+	background-color: #660000;
+	color: black;
+	width: auto;
+
+}
+
+body {
+	width: 960px;
+	margin-left: auto ;
+	margin-right: auto;
+	background-color: #f0f0f0 ;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+nav{
+	background-color: #33cc33;
+	padding: 10px;
+	margin-top: 1px;
+	text-align: center;
+}
+
+li a {
+	color: black;
+}
+
+li{
+	display: inline;
+	margin-left: auto ;
+	margin-right: auto;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+section {
+	background-color: #bbbbbb;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+article {
+	background-color: white ;
+	margin-top: 5px ;
+	padding: 10px 15px;
+}
+
+main {
+	width: 640px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+aside {
+	background-color: #bbbbbb;
+	width: 270px;
+	float: right;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}
+
+body{
+	background-image: url(Inicio2.jpg);
+}
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  
+}
+

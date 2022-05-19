@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+	padding: 1px;
+	margin: 1px;
+}   
+
+.banner {
+	text-align: center;
+	background-color: #669900;
+	color: black;
+	width: auto;
+	height: 150px;
+
+}
+
+body {
+	width: 960px;
+	margin-left: auto ;
+	margin-right: auto;
+	background-color: #f0f0f0 ;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+nav{
+	background-color: #20416c;
+	padding: 15px;
+	margin-top: 1px;
+	text-align: center;
+	background-color: brown;
+}
+
+li a {
+	color: black;
+}
+
+li{
+	display: inline;
+	margin-left: auto ;
+	margin-right: auto;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+section {
+	background-color: brown;
+	margin-top: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+article {
+	background-color: #00ffff ;
+	margin-top: 5px ;
+	padding: 10px 15px;
+	text-align: center;
+	height: 100px;
+}
+
+main {
+	width: 640px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+aside {
+	background-color: #669900;
+	width: 270px;
+	float: right;
+	padding: 20px;
+	margin-top: 11px;
+	height: 250px;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}
+
+body{
+	background-image: url(PRODUCTOS.jpg);
+}

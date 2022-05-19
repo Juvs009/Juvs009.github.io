@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html leng="esp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="TCICO.ico">
+	<title> Inicio </title>
+	<link rel="stylesheet" type="text/css" href="Inicio.css">
+
+	</head>
+	<body>
+	<header class="title">
+		<div class="flex-container">
+			<picture class="logoL">
+				<img class="element" src="Team_Cherry_Logo.png" alt="Logo" style="width:auto" height="100" >
+			</picture>
+			<h1> Silksongn't </h1>
+			<picture class="logoR">
+				<img class="element" src="Team_Cherry_Logo.png" alt="Logo" style="width:auto" height="100" >
+			</picture>
+			</div>
+			</header>
+		<nav class="sticky">
+			<div class="flex-right">
+			<a class="btn" href="Novedades.html"> Novedades </a>
+			<a class="btn" href="Pedidos.html"> Pedidos</a>
+			<a class="btn" href="Productos.html">Productos</a>
+			<a class="btn" href="Quien.html">Quienes somos</a>
+			<a class="btn" href="Web.html">Inicio</a>
+			</div>
+		</nav>
+		<main>
+			
+			<div class="mid">
+
+				<div class="Cart">
+						<div class="Cart-tit">Productos</div><br><br><br>
+						<div class="Cart-it">
+							<div class="Cart-img">
+								<img src="PlayStation_5.png" style={{ height="200px" }}>
+							</div>
+								<div>
+									<h1 class="Cart-txt">PS5: </h1>
+									<h2 class="Cart-pric"> 420€ </h2>
+								</div>
+								<div>
+								<label for="PS">Cantidad:</label>
+								<input type="text" name="Switch" size="1" id="PS" maxlength="1">
+								</div>
+							</div>
+						<div class="Cart-it">
+							
+							<div class="Cart-img">
+								<img src="Xbox_Series_X.png" style={{ height="170px" }}>
+							</div>
+								<div>
+								<h1 class="Cart-txt">Xbox Series X:</h1>
+								<h2 class="Cart-pric"> 380€</h2>
+								</div>
+								<div>
+								<label for="Xb">Cantidad:</label>
+								<input type="text" name="Switch" size="1" id="Xb" maxlength="1">
+								</div>
+							
+						
+						</div>
+						<div class="Cart-it">
+							<div class="Cart-img">
+								<img src="Switch.png" style={{ height="115px" }}>
+							</div>
+								<div>
+								<h1 class="Cart-txt">Nintendo Switch:</h1>
+								<h2 class="Cart-pric"> 220€</h2>
+								</div>
+								<div>
+								<label for="sw">Cantidad:</label>
+								<input type="text" name="Switch" size="1" id="sw" maxlength="1">
+								</div>
+						</div>
+
+
+
+			</div>
+			<form action="Imput.html" method="get" enctype="text/plain">
+			<br><h2> Datos del Pedido </h2> <br>
+
+					<label for="nom"> Nombre* </label> <input type="text" name="Nombre" value="" id="nom" required size="30"> <br><br>
+					<label for="ape">Apellidos* </label>  <input type="text" name="Apellidos" value="" id="ape" required size="30"> <br><br>
+					<label for="num">Número*</label> <input type="tel" name="Número" value=""id ="num" size="30" required pattern="[0-9]{9}" placeholder="Ej. 123456789" maxlength="9"> <br><br>
+					<select name="Localidad" required>
+						<option value=""> Selecciona tu localidad </option>
+						<option value="Mad">Madrid</option>
+						<option value="Bcn">Barcelona</option>
+						<option value="Cant">Cantabria</option>
+						<option value="Gal">Galicia</option>
+						<option value="Val">Valencia</option>
+					</select><br><br>
+					<select name="Localidad" required>
+						<option value=""> Selecciona un método de pago </option>
+						<option value="Mad">Contrareembolso</option>
+						<option value="Mad" disabled>Con tarjeta (pronto)</option>
+						<option value="Mad" disabled>Transferencia bancaria (pronto)</option>
+					</select><br><br>
+					<label for="dni">CIF/NIF* </label><input type="text" name="dni" id="dni" required pattern="((([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))" size="30" required><br><br>
+					<label for="dir">Dirección* </label><input type="text" name="Direccion" id="dir" size="30" required>
+					<br><br>
+					
+
+					<button class="btn2" name="Enviar" type="submit" value=""> Enviar </button>
+					<button class="btn2" name="Reset" type="reset" value=""> Borrar </button><br><br><br><br><br><br>
+
+		</div>
+		</form>
+		</main>
+		<footer>
+      <div class="footer">
+      		<picture class="logoL">
+				<img class="element" src="Team_Cherry_Logo.png" alt="Logo" style="width:auto" height="90" >
+			</picture>
+      		<h2><a href="Quien.html" class="w">¡Contáctanos!</a></h2>
+      		<picture class="logoR">
+				<img class="element" src="Team_Cherry_Logo.png" alt="Logo" style="width:auto" height="90" >
+			</picture>
+      </div>
+    </footer>
+	</body>
+</html>
